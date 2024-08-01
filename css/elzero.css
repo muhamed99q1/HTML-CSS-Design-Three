@@ -308,7 +308,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
 }
 .landing .container .text {
   flex-basis: 35%;
@@ -326,6 +326,7 @@ a {
   width: 600px;
   max-width: 100%;
   animation: up-down infinite alternate 4s linear;
+  margin-bottom: -20px;
 }
 @media (max-width: 991px) {
   .landing .container .text {
