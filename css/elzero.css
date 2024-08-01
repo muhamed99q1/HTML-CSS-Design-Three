@@ -326,6 +326,7 @@ a {
   width: 600px;
   max-width: 100%;
   animation: up-down infinite alternate 4s linear;
+  margin-bottom: 20px;
 }
 @media (max-width: 991px) {
   .landing .container .text {
@@ -355,6 +356,7 @@ a {
   }
   .landing .image img {
     width: 350px;
+    margin-bottom: 0;
   }
 }
 .landing .arrow-down {
