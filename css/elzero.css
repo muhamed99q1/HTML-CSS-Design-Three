@@ -327,6 +327,21 @@ a {
   max-width: 100%;
   animation: up-down infinite alternate 4s linear;
 }
+@media (max-width: 767px) {
+  .landing .container {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    min-height: calc(100vh - 140px);
+    text-align: center;
+  }
+  .landing .container .text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .landing .image img {
+    width: 300px;
+}
+}
 @media (max-width: 991px) {
   .landing .container .text {
     flex-basis: 50%;
@@ -343,21 +358,6 @@ a {
   .landing .image img {
     width: 350px;
   }
-}
-@media (max-width: 767px) {
-  .landing .container {
-    flex-direction: column-reverse;
-    justify-content: flex-start;
-    min-height: calc(100vh - 140px);
-    text-align: center;
-  }
-  .landing .container .text {
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-  .landing .image img {
-    width: 300px;
-}
 }
 .landing .arrow-down {
   color: var(--main-color);
