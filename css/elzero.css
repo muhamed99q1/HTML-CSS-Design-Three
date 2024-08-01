@@ -327,6 +327,23 @@ a {
   max-width: 100%;
   animation: up-down infinite alternate 4s linear;
 }
+@media (max-width: 991px) {
+  .landing .container .text {
+    flex-basis: 50%;
+  }
+  .landing .text h1 {
+    font-size: 30px;
+    font-weight: 900;
+  }
+  .landing .text p {
+    font-size: 17px;
+    color: #555;
+    line-height: 1.6;
+  }
+  .landing .image img {
+    width: 350px;
+  }
+}
 @media (max-width: 767px) {
   .landing .container {
     flex-direction: column-reverse;
@@ -341,23 +358,6 @@ a {
   .landing .image img {
     width: 300px;
 }
-}
-@media (max-width: 991px) {
-  .landing .container .text {
-    flex-basis: 50%;
-  }
-  .landing .text h1 {
-    font-size: 30px;
-    font-weight: 900;
-  }
-  .landing .text p {
-    font-size: 17px;
-    color: #555;
-    line-height: 1.6;
-}
-  .landing .image img {
-    width: 350px;
-  }
 }
 .landing .arrow-down {
   color: var(--main-color);
