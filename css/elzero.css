@@ -304,11 +304,11 @@ a {
   transform-origin: left top;
 }
 .landing .container {
-  min-height: calc(100vh - 73px);
+  min-height: calc(100vh - 100px);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 100px;
+  padding-bottom: 120px;
 }
 .landing .container .text {
   flex-basis: 35%;
@@ -326,6 +326,7 @@ a {
   width: 600px;
   max-width: 100%;
   animation: up-down infinite alternate 4s linear;
+  margin-bottom: 30px;
 }
 @media (max-width: 991px) {
   .landing .container .text {
