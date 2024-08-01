@@ -355,6 +355,9 @@ a {
     margin-top: 50px;
     margin-bottom: 50px;
   }
+  .landing .image img {
+    width: 250px;
+  }
 }
 .landing .arrow-down {
   color: var(--main-color);
