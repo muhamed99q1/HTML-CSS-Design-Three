@@ -340,9 +340,6 @@ a {
     color: #555;
     line-height: 1.6;
   }
-  .landing .image img {
-    width: 350px;
-  }
 }
 @media (max-width: 767px) {
   .landing .container {
